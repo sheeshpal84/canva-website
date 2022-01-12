@@ -37,6 +37,10 @@ p {
 Header {
   padding: 0px 140px;
 }
+
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: var(--main-color);
+}
 Header .navbar-light .navbar-nav .nav-link.active {
   color: var(--main-color);
 }
@@ -123,14 +127,174 @@ Header .navbar-light .navbar-toggler {
 }
 
 /* WHO WE ARE code end  */
-
+/* Trusted By Clients css code start  */
 .trd-centent {
-    padding: 50px 140px;
+  padding: 50px 140px;
 }
 
-.trd-centent  span {
-    display: flex;
-    justify-content: end;
-    width: 81%;
-    margin-bottom: 30px;
-  }
+.trd-centent span {
+  display: flex;
+  justify-content: end;
+  width: 81%;
+  margin-bottom: 30px;
+}
+
+/* Trusted By Clients css code end  */
+/* our expertise css code start  */
+.fr-centent {
+  padding: 50px 140px;
+}
+
+.fr-centent span {
+  display: flex;
+  justify-content: end;
+  width: 76%;
+  margin-bottom: 30px;
+}
+
+.get::after {
+  content: "";
+  display: block;
+  border-bottom: 8px solid var(--main-color);
+  width: 14%;
+  margin-top: -18px;
+}
+
+.get1::after {
+  content: "";
+  display: block;
+  border-bottom: 8px solid var(--main-color);
+  width: 40%;
+  margin-top: -18px;
+}
+.section1 {
+  padding: 0px 140px;
+}
+
+.our-content h5 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.our-content span {
+  color: var(--main-color);
+}
+
+.my-btn {
+  padding: 15px 50px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: var(--main-color);
+  margin-top: 20px;
+  font-weight: bold;
+}
+.card-bg {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  margin: 100px 0px;
+}
+.card-bg1 {
+  background-image: url(../images/bg-1.png);
+  background-repeat: no-repeat;
+  margin: 100px 0px;
+}
+.card-bg2 {
+  background-image: url(../images/bg-2.png);
+  background-repeat: no-repeat;
+  margin: 100px 0px;
+}
+.card-centent {
+  padding: 50px;
+}
+/* our expertise css code end  */
+
+/* Work process css code start  */
+.box-part {
+  background: #041229;
+  padding: 60px 20px;
+  border-radius: 12px;
+}
+.box-part h5 {
+  color: var(--main-color);
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.box-part .text {
+  font-size: 18px;
+  color: #fff;
+}
+.count {
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-text-stroke: 2px var(--main-color);
+  position: absolute;
+  margin-left: 20px;
+}
+
+/* Work process css code end  */
+
+
+/* our work css code start  */
+.span-img span {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.work-centent {
+  padding: 0px 0px 30px 0px;
+}
+.work-centent h5 {
+  font-size: 80px;
+  -webkit-text-stroke: 4px #fff;
+  color: #000;
+  line-height: 0.6;
+}
+.work-centent h2 {
+  font-size: 60px !important;
+}
+.work-centent p {
+  font-size: 16px !important;
+  color: #fff;
+  padding-left: 200px;
+}
+
+.work-centent-sec {
+  padding: 30px 0px 0px 0px;
+}
+.work-centent-sec h5 {
+  font-size: 80px;
+  -webkit-text-stroke: 4px #fff;
+  color: #000;
+  line-height: 0.6;
+}
+.work-centent-sec h2 {
+  font-size: 60px !important;
+}
+.work-centent-sec p {
+  font-size: 16px !important;
+  color: #fff;
+  padding-right: 200px;
+}
+
+/* our work css code end  */
+
+/* PORTFOLIO css code start  */
+.Portfolio-centent {
+    padding: 100px 300px;
+}
+.portfolio .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 15px 60px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.portfolio .nav-pills .nav-link {
+    background: #041228;
+    border-radius: 50px;
+    padding: 15px 60px;
+    color: #fff;
+}
+/* PORTFOLIO css code end  */
