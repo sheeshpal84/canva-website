@@ -26,6 +26,7 @@ p {
 
 :root {
   --main-color: #009eff;
+  --mainColor: #fff;
 }
 
 .row {
@@ -139,6 +140,94 @@ Header .navbar-light .navbar-toggler {
   margin-bottom: 30px;
 }
 
+.side_Padding {
+  padding: 0 150px;
+}
+
+.paddgin_one {
+  padding: 30px 0;
+}
+
+/* hover_Section */
+
+.hover_Section {
+  background: linear-gradient(255.68deg, #007fcc 28.27%, #039efe 99.65%);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.2s ease-out;
+}
+
+.hover_Section h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: var(--mainColor);
+}
+
+.See_all_clients {
+  padding: 0.6rem 2rem;
+  border: none;
+  outline: none;
+  border: 2px solid var(--mainColor);
+  border-radius: 30px;
+  background-color: transparent;
+  color: var(--mainColor);
+}
+
+.hover_icons_div img {
+  width: 120px;
+  height: auto;
+}
+
+.hover_effect {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+.hover_div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 10;
+  transform: scale(0);
+  transition: all 0.2s ease;
+}
+
+.hover_effect img {
+  z-index: 20;
+}
+
+.hover_effect:hover .hover_div {
+  background-color: var(--mainColor);
+  transform: scale(1);
+}
+
+.hover_effect img:nth-child(2) {
+  margin-bottom: -80px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.hover_effect:hover img:nth-child(2) {
+  margin-bottom: 0;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.hover_effect:hover img:nth-child(1) {
+  margin-top: -80px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+/* hover_Section */
+
 /* Trusted By Clients css code end  */
 /* our expertise css code start  */
 .fr-centent {
@@ -233,7 +322,6 @@ Header .navbar-light .navbar-toggler {
 
 /* Work process css code end  */
 
-
 /* our work css code start  */
 .span-img span {
   display: flex;
@@ -282,20 +370,21 @@ Header .navbar-light .navbar-toggler {
 
 /* PORTFOLIO css code start  */
 .Portfolio-centent {
-    padding: 100px 300px;
+  padding: 100px 300px;
 }
-.portfolio .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: var(--main-color);
-    padding: 15px 60px;
-    border-radius: 50px;
-    font-weight: bold;
+.portfolio .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 15px 60px;
+  border-radius: 50px;
+  font-weight: bold;
 }
 .portfolio .nav-pills .nav-link {
-    background: #041228;
-    border-radius: 50px;
-    padding: 15px 60px;
-    color: #fff;
+  background: #041228;
+  border-radius: 50px;
+  padding: 15px 60px;
+  color: #fff;
 }
 /* PORTFOLIO css code end  */
 
@@ -337,6 +426,169 @@ Header .navbar-light .navbar-toggler {
 /* Testimonial css code end  */
 
 /* Contact us css code start  */
+.contact-us {
+  background-color: #041228;
+  border-left: 100px solid #020914;
+}
 
+.contact-img {
+  position: relative;
+  left: -190px;
+}
+.contact-padding {
+  padding: 0px 140px 50px 140px;
+}
+.accordion-tab {
+  padding: 50px 50px 50px 0px;
+}
+
+.accordion-tab h4 {
+  font-size: 30px;
+  color: #fff;
+  padding: 20px 0px;
+}
+.accordion-tab .accordion-item {
+  border: none;
+  border-top: 4px solid #fff;
+  border-radius: 0px;
+}
+.accordion-tab .accordion-button:focus {
+  border-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed) {
+  background-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed) {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.accordion-tab .accordion-body {
+  background-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/cx.png);
+}
+.accordion-tab .accordion-button::after {
+  background-image: url(../images/plus.png);
+}
+.accordion-tab .accordion-button {
+  background-color: #041228;
+  color: #fff;
+  font-size: 22px;
+  padding: 30px 20px;
+}
+.accordion-tab strong {
+  font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+}
 
 /* Contact us css code end  */
+
+/* footer css code start  */
+
+footer {
+  padding: 50px 140px 20px 140px;
+}
+.footer-link h4 {
+text-transform: uppercase;
+color: #fff;
+font-size: 24px;
+}
+
+.footer-link h5 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.footer-link h4::after {
+  content: '';
+  display: block;
+  width: 40%;
+  border-bottom: 3px solid var(--main-color);
+  margin-top: 5px;
+}
+
+.footer-link h5 a {
+  text-decoration:  none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 20px 0px;
+}
+.footer-link h5 a:hover {
+  color: var(--main-color);
+  transition: all 0.5s;
+}
+.footer-link p {
+  font-size: 16px !important;
+  font-weight: normal;
+}
+
+.footer-link form {
+  margin-top: 40px;
+}
+.footer-link .form-control {
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 11px RGBA(13,83,231,0.20);
+}
+
+.footer-link button {
+  padding: 15px 40px;
+  border-radius: 50px;
+}
+.copyright p {
+color: #fff;
+font-size: 18px  !important;
+}
+.footer-icon .fab {
+  color: var(--main-color);
+  padding: 0px 20px;
+  font-size: 20px;
+}
+/* footer css code end  */
+
+
+
+
+/* about css code start  */
+.about-sec {
+  padding: 50px 140px;
+}
+
+.about-sec h2 span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+
+.point-centent  li {
+font-size: 20px;
+color: #fff;
+padding: 30px 10px;
+}
+/* about css code end  */
+
+/* about card css code start  */
+.card-section-about {
+  padding: 50px 140px;
+}
+
+.about-card {
+  background-color: #041228;
+  border-radius: 12px;
+  padding: 40px;
+  height: 350px;
+}
+.about-card h4 {
+  font-size: 30px;
+  color: #fff;
+}
+.about-card h4 span {
+  color: var(--main-color);
+}
+.about-card p {
+  font-size: 16px !important;
+}
+/* about card css end  */
