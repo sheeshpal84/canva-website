@@ -442,6 +442,8 @@ Header .navbar-light .navbar-toggler {
   padding: 50px 50px 50px 0px;
 }
 
+
+
 .accordion-tab h4 {
   font-size: 30px;
   color: #fff;
@@ -592,3 +594,118 @@ padding: 30px 10px;
   font-size: 16px !important;
 }
 /* about card css end  */
+
+
+
+/* Portfolio page css start  */
+
+
+.Portfolio_deta  h4 {
+font-size: 30px;
+color: var(--main-color);
+}
+
+.Portfolio_deta  h6 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.Portfolio_centent_info h4 {
+font-size: 80px;
+color: #fff;
+}
+
+.Portfolio_centent_info span {
+  font-size: 140px;
+  -webkit-text-stroke: 3px var(--main-color);
+  color: #020914;
+}
+.Portfolio_centent_info ul li {
+  font-size: 30px;
+  color: var(--main-color);
+}
+ .info-end {
+  border-left: 6px solid var(--main-color);
+  padding-left: 50px;
+  margin: 50px 0px;
+} 
+ .info-end h5 {
+  font-size: 40px;
+  color: #fff;
+}
+
+ .info-end h6 {
+  color: var(--main-color);
+  font-size: 24px;
+}
+
+.bg_img-port {
+  background-color: #041228;
+  padding: 0px;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.info_img_port {
+ position: absolute;
+ padding: 30px;
+}
+.info_img_port ul li {
+  font-size: 20px;
+ color: #fff;
+ list-style: none;
+}
+.info_img_port ul li::before {
+  content: "\2022";
+  color: var(--main-color);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  font-size: 30px;
+  margin-left: -1em;
+}
+
+.hr {
+  color: #fff;
+  height: 3px;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.icon-pre-next h4 {
+  font-size: 30px;
+  color: #fff;
+  margin: 50px 0px;
+}
+.icon-pre-next i {
+  color: var(--main-color);
+}
+
+.bg-img-bottam {
+  background-image: url(../images/port-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 140px;
+  background-color: #041228;
+}
+
+.bg-img-bottam h4 {
+  font-size: 30px;
+  color: #fff;
+}
+.bg-img-bottam h4 span {
+  color: var(--main-color);
+}
+.btn-portfolio {
+  padding: 15px 50px;
+  background: var(--main-color);
+  color: #fff;
+  border: 0px;
+  border-radius: 50px;
+}
+
+.related-section {
+  padding: 100px 140px;
+}
+/* .portfolio page css end  */
