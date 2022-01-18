@@ -666,17 +666,19 @@ color: #fff;
   margin-left: -1em;
 }
 
+
+.icon-pre-next h4 {
+  font-size: 30px;
+  color: #fff;
+  margin: 5g0px 0px;
+}
+
+/* hr line css  */
 .hr {
   color: #fff;
   height: 3px;
   background: #fff;
   margin-top: 50px;
-}
-
-.icon-pre-next h4 {
-  font-size: 30px;
-  color: #fff;
-  margin: 50px 0px;
 }
 .icon-pre-next i {
   color: var(--main-color);
