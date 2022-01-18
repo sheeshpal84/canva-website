@@ -442,8 +442,6 @@ Header .navbar-light .navbar-toggler {
   padding: 50px 50px 50px 0px;
 }
 
-
-
 .accordion-tab h4 {
   font-size: 30px;
   color: #fff;
@@ -494,9 +492,9 @@ footer {
   padding: 50px 140px 20px 140px;
 }
 .footer-link h4 {
-text-transform: uppercase;
-color: #fff;
-font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
 }
 
 .footer-link h5 {
@@ -504,7 +502,7 @@ font-size: 24px;
   font-size: 16px;
 }
 .footer-link h4::after {
-  content: '';
+  content: "";
   display: block;
   width: 40%;
   border-bottom: 3px solid var(--main-color);
@@ -512,7 +510,7 @@ font-size: 24px;
 }
 
 .footer-link h5 a {
-  text-decoration:  none;
+  text-decoration: none;
   color: #fff;
   text-transform: uppercase;
   font-weight: normal;
@@ -533,7 +531,7 @@ font-size: 24px;
 .footer-link .form-control {
   height: 50px;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 11px RGBA(13,83,231,0.20);
+  box-shadow: 0px 0px 5px 11px RGBA(13, 83, 231, 0.2);
 }
 
 .footer-link button {
@@ -541,8 +539,8 @@ font-size: 24px;
   border-radius: 50px;
 }
 .copyright p {
-color: #fff;
-font-size: 18px  !important;
+  color: #fff;
+  font-size: 18px !important;
 }
 .footer-icon .fab {
   color: var(--main-color);
@@ -550,9 +548,6 @@ font-size: 18px  !important;
   font-size: 20px;
 }
 /* footer css code end  */
-
-
-
 
 /* about css code start  */
 .about-sec {
@@ -564,11 +559,10 @@ font-size: 18px  !important;
   font-weight: bold;
 }
 
-
-.point-centent  li {
-font-size: 20px;
-color: #fff;
-padding: 30px 10px;
+.point-centent li {
+  font-size: 20px;
+  color: #fff;
+  padding: 30px 10px;
 }
 /* about css code end  */
 
@@ -595,24 +589,21 @@ padding: 30px 10px;
 }
 /* about card css end  */
 
-
-
 /* Portfolio page css start  */
 
-
-.Portfolio_deta  h4 {
-font-size: 30px;
-color: var(--main-color);
+.Portfolio_deta h4 {
+  font-size: 30px;
+  color: var(--main-color);
 }
 
-.Portfolio_deta  h6 {
+.Portfolio_deta h6 {
   font-size: 24px;
   color: #fff;
 }
 
 .Portfolio_centent_info h4 {
-font-size: 80px;
-color: #fff;
+  font-size: 80px;
+  color: #fff;
 }
 
 .Portfolio_centent_info span {
@@ -624,17 +615,17 @@ color: #fff;
   font-size: 30px;
   color: var(--main-color);
 }
- .info-end {
+.info-end {
   border-left: 6px solid var(--main-color);
   padding-left: 50px;
   margin: 50px 0px;
-} 
- .info-end h5 {
+}
+.info-end h5 {
   font-size: 40px;
   color: #fff;
 }
 
- .info-end h6 {
+.info-end h6 {
   color: var(--main-color);
   font-size: 24px;
 }
@@ -648,24 +639,23 @@ color: #fff;
 }
 
 .info_img_port {
- position: absolute;
- padding: 30px;
+  position: absolute;
+  padding: 30px;
 }
 .info_img_port ul li {
   font-size: 20px;
- color: #fff;
- list-style: none;
+  color: #fff;
+  list-style: none;
 }
 .info_img_port ul li::before {
   content: "\2022";
   color: var(--main-color);
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   font-size: 30px;
   margin-left: -1em;
 }
-
 
 .icon-pre-next h4 {
   font-size: 30px;
@@ -711,3 +701,168 @@ color: #fff;
   padding: 100px 140px;
 }
 /* .portfolio page css end  */
+
+/* Services section css start  */
+/* Our Web DesignAgency, */
+.light_heading_para {
+  color: var(--main-color);
+}
+/* Our Web DesignAgency, */
+/* web_desing_and_brand */
+.web_desing_Content_div h1 {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+}
+.web_desing_Content_div p {
+  text-align: justify;
+}
+.services_includes_card {
+  width: 500px;
+  padding: 2rem 1rem 0 0;
+  border-radius: 12px;
+  position: relative;
+}
+.services_includes_card::before {
+  content: "";
+  background-color: var(--mainColor);
+  mix-blend-mode: overlay;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  z-index: -1;
+}
+.services_includes_inner {
+  width: 90%;
+  padding: 0.2rem 2rem;
+  background-color: var(--mainColor);
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+.services_includes_inner p {
+  color: var(--main-color);
+  margin-bottom: 0;
+}
+.services_includes_list {
+  padding-left: 2rem;
+}
+.services_includes_list li p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 19px;
+  display: inline-block;
+}
+
+.services_includes_list li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services_includes_list li::before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  background: url(../images/Vector\ 4.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  transform: scale(0.7);
+}
+/* web_desing_and_brand */
+/* Graphic Design & Brand Identity */
+/* Graphic Design & Brand Identity */
+/* Our Responsibility */
+.Our_responsibility_card {
+  padding: 2rem;
+  position: relative;
+  border-radius: 12px;
+}
+.Our_responsibility_card::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--mainColor);
+  mix-blend-mode: overlay;
+  top: 0;
+  border-radius: 12px;
+  left: 0;
+  z-index: -1;
+}
+.Our_responsibility_card h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.Our_responsibility_card p {
+  font-size: 16px;
+}
+.buttonArrow {
+  width: 60px;
+  height: 60px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+.vectorImg {
+  width: auto;
+  height: 50px;
+}
+/* Our Responsibility */
+
+/* Get Your free Quote Today */
+.get_your_free_qoute {
+  position: relative;
+}
+.get_your_free_qoute::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Group\ 5194.png);
+  background-position: center;
+  z-index: -1;
+  mix-blend-mode: overlay;
+  top: 0;
+  left: 0;
+}
+.light_para {
+  font-size: 30px;
+  color: var(--main-color);
+}
+.get_your_free_content h2 {
+  font-size: 3rem;
+}
+.get_your_free_content p {
+  font-size: 1.2rem;
+}
+.search_input_div {
+  display: flex;
+  height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 90%;
+}
+.search_input_div input {
+  width: 100%;
+  padding: 0 0 0 3rem;
+  outline: none;
+  border: none;
+}
+.Check_now_Button {
+  padding: 1.2rem 3.5rem;
+  background-color: var(--main-color);
+  color: var(--mainColor);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.web_url {
+  border-right: 1px solid #f3f3f3 !important;
+}
+/* Get Your free Quote Today */
+
+/* Services section css end  */
